@@ -11,24 +11,24 @@
 
 	<form method="post">
 		<label for="name">Name *</label>
-		<input id="name" type="text" required>
+		<input id="name" type="text" name="name" required>
 		<br>
 
 		<label for="email">Email *</label>
-		<input id="email" type="email" required>
+		<input id="email" type="email" name="email" required>
 		<br>
 
 		<label>Gender *</label>
 		<br>
 		<label for="male"> Male</label>
-		<input id="male" required name="gender" type="radio">
+		<input id="male" required name="gender" value="male" type="radio">
 		<br>
 		<label for="female">Female</label>
-		<input id="female" required name="gender" type="radio">
+		<input id="female" required name="gender"  value="female" type="radio">
 		<br>
 
 		<label for="laptop">Laptop Brands</label>
-		<select id="laptop">
+		<select id="laptop" name="laptop">
 			<option>--Select--</option>
 			<option>Apple</option>
 			<option>HP</option>
@@ -37,16 +37,16 @@
 	<br>
 
 		<label for="age">Age*</label>
-		<input id="age" type="number" required>
+		<input id="age" type="number" name="age" required>
 		<br>
 		<label for="dob">Date of Birth*</label>
-		<input id="dob" type="date" required>
+		<input id="dob" type="date" name="dob" required>
 		<br>
 		<label for="password">Password*</label>
-		<input id="password" type="password" required>
+		<input id="password" type="password" name="password" required>
 		<br>
 		<label for="portfolio">Portfolio URL</label>
-		<input id="portfolio" type="url">
+		<input id="portfolio" type="url" name="portfolio">
 		<br>
 		<button type="button">Submit Button</button>
 		
